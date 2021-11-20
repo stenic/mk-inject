@@ -5,8 +5,11 @@ module.exports = {
 	  ["@semantic-release/changelog", {
 		"changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
 	  }],
+	  ["@semantic-release/exec", {
+			"generateNotesCmd": "make docs 1>&2",
+	  }],
 	  ["@semantic-release/git", {
-		"assets": ["CHANGELOG.md"],
+		"assets": ["CHANGELOG.md", "README.md"],
 		"message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
 	  }]
 	],
