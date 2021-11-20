@@ -1,7 +1,7 @@
 env:
-  - PROJECT_DESCRIPTION="Inject output of any command into markdown files"
-  - PROJECT_HOMEPAGE="https://stenic.io"
-  - LICENSE="MIT"
+  - PROJECT_DESCRIPTION=Inject output of any command into markdown files
+  - PROJECT_HOMEPAGE=https://stenic.io
+  - LICENSE=MIT
 
 before:
   hooks:
