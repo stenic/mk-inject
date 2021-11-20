@@ -46,4 +46,16 @@ docker run -ti -v $(pwd):/workspace ghcr.io/stenic/mk-inject:latest sh -c "cat t
 ## Documentation
 
 <!-- mk-inject:start:help prefix="```shell" suffix="```" -->
+```shell
+mk-inject
+
+Usage:
+  mk-inject [--label labelName] file [flags]
+
+Flags:
+  -h, --help           help for mk-inject
+  -i, --inplace        Edit in place
+  -l, --label string   Replace a specific tag
+  -v, --version        version for mk-inject
+```
 <!-- mk-inject:end:help -->
