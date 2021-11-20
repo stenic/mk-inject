@@ -1,6 +1,6 @@
 # mk-inject
 
-`mk-inject` allow you to inject the input of a command into your markdown files.
+`mk-inject` allows you to inject the input of a command into your markdown files.
 
 ## Example
 
