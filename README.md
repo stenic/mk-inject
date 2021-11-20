@@ -36,6 +36,33 @@ Some more content.
 ```
 
 
+## Installation
+
+```shell
+# homebrew
+brew install stenic/tap/mk-inject
+
+# gofish
+gofish rig add https://github.com/stenic/fish-food
+gofish install github.com/stenic/fish-food/mk-inject
+
+# scoop
+scoop bucket add mk-inject https://github.com/stenic/scoop-bucket.git
+scoop install mk-inject
+
+# go
+go install github.com/stenic/mk-inject@latest
+
+# docker 
+docker pull ghcr.io/stenic/mk-inject:latest
+
+# dockerfile
+COPY --from=ghcr.io/stenic/mk-inject:latest /mk-inject /usr/local/bin/
+```
+
+> For even more options, check the [releases page](https://github.com/stenic/mk-inject/releases).
+
+
 ## Running
 
 ```shell
