@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/stenic/mk-inject/compare/v1.0.1...v1.0.2) (2021-11-20)
+
+
+### Bug Fixes
+
+* Fix brew installer ([c3f6158](https://github.com/stenic/mk-inject/commit/c3f615813c530bc953065cb3bba206d8c8e0b9f3))
+
 ## [1.0.1](https://github.com/stenic/mk-inject/compare/v1.0.0...v1.0.1) (2021-11-20)
 
 
